@@ -7,7 +7,7 @@
 ### 主界面
 
   ![main](readme.res/main.png)
-管理员登陆成功后界面如上图，使用了Android自带的SQLite存储，定义了StudentDBOpenHelper的抽象类实现数据库被创建调用的方法，StudentInfo作为学生信息存储的实体类，StudentDao来实现学生数据的增加，删除（和查找），同样打开DDMS，找到
+	管理员登陆成功后界面如上图，使用了Android自带的SQLite存储，定义了StudentDBOpenHelper的抽象类实现数据库被创建调用的方法，StudentInfo作为学生信息存储的实体类，StudentDao来实现学生数据的增加，删除（和查找），同样打开DDMS，找到
 `data/data/com.lthergo.studentsystem/databases/student.db`将文件导出并打开
 	![data](readme.res/data.png)
 我们可以看到，学生信息已经存储在本地数据库中了。界面通过ListView展示每一个学生信息的item，学生端登陆成功后只能进行查看操作，没有添加删除等权限。
