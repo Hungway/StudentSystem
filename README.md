@@ -6,7 +6,7 @@
 	![login](readme.res/login.png)	![ddms](readme.res/ddms.png)
 ### 主界面
 管理员登陆成功后界面如下
-	![main](readme.res/main.png)
+    ![main](readme.res/main.png)
 使用了Android自带的SQLite存储，定义了StudentDBOpenHelper的抽象类实现数据库被创建调用的方法，StudentInfo作为学生信息存储的实体类，StudentDao来实现学生数据的增加，删除（和查找），同样打开DDMS，找到
 `data/data/com.lthergo.studentsystem/databases/student.db`将文件导出并打开
 	![data](readme.res/data.png)
